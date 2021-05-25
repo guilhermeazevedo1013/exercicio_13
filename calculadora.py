@@ -1,5 +1,5 @@
 def potencia (a, b):
-  pass
+  return a ** b
 
 def divisao (a, b):
   return a // b
@@ -26,5 +26,5 @@ elif operacao == '*':
 elif operacao == '/':
   resultado = divisao(a, b)
 else:
-  resultado = a ** b
+  resultado = potencia(a, b)
 print (resultado)
